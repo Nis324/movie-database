@@ -9,7 +9,7 @@ const MovieTrailer = ({ title, year }) => {
   useEffect(() => {
     const fetchTrailer = async () => {
       // ---> PUT YOUR ACTUAL YOUTUBE API KEY INSIDE THE QUOTES BELOW <---
-      const apiKey = "AIzaSyCfhf0hEcB0Alg0mbXuOYMBIja39sUR25M"; 
+      const apiKey = "AIzaSyBks6qzx8rhS2M74rvLxEU8sClnDUwjSMk"; 
       
       if (apiKey === "YOUR_YOUTUBE_API_KEY" || apiKey === "") {
         setErrorMsg("Oops! You forgot to paste your YouTube API Key.");
